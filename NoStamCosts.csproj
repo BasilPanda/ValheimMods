@@ -366,14 +366,9 @@
     <Compile Include="NoStamCosts.cs" />
     <Compile Include="Patches\NoStaminaCostPatch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Content Include="Package\icon.png" />
     <None Include="GameDir.targets" />
-    <None Include="Package\manifest.json" />
-    <None Include="Package\README.md" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Package\plugins\%24projectname%24\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>xcopy "$(TargetDir)" "$(GameDir)\Bepinex\plugins\$(ProjectName)\" /q /s /y /i</PostBuildEvent>
