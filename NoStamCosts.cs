@@ -35,7 +35,8 @@ namespace ValheimNoStam
         #region Initialize Config
         
         public void InitConfig()
-        {            StaminaCostSetting = Config.Bind(
+        {
+            StaminaCostSetting = Config.Bind(
                 "Stamina Cost Setting",
                 "StaminaCostSetting",
                 1,
