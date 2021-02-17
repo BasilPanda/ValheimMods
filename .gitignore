@@ -339,9 +339,3 @@ ASALocalRun/
 # BeatPulse healthcheck temp database
 healthchecksdb
 /GameDir.targets
-/Package/README.md
-/Package/plugins/NoStamCosts.dll
-/Package/plugins
-/Package/manifest.json
-/Package/icon.png
-/Package

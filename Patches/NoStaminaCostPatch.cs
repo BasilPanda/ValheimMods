@@ -14,11 +14,15 @@ namespace ValheimNoStam.Patches
                 // Use stamina
                 case 0:
                     return;
-                //  No stamina costs when using hammer or hoe
+                //  No stamina costs for everything when hold a hammer or hoe
                 case 1:
                     // Debug.Log(__instance.GetRightItem().m_shared.m_name);
+                    if(__instance.GetRightItem() == null)
+                    {
+                        return;
+                    }
                     string itemName = __instance.GetRightItem().m_shared.m_name;
-                    if (itemName == "$item_hammer" || itemName == "$item_hoe")
+                    if ((itemName == "$item_hammer" || itemName == "$item_hoe"))
                         v = 0;
                     return;
                 // No stamina costs in god mode only
@@ -34,6 +38,6 @@ namespace ValheimNoStam.Patches
                     return;
             }
         }
-    }
 
+    }
 }
