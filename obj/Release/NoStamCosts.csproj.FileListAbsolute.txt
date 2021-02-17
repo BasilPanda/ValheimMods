@@ -1,0 +1,3 @@
+I:\SteamLibrary\steamapps\common\Valheim\BepInEx\plugins\NoStamCosts.dll
+G:\Mod Projects\Valheim\NoStamCosts\obj\Release\NoStamCosts.csproj.CoreCompileInputs.cache
+G:\Mod Projects\Valheim\NoStamCosts\obj\Release\NoStamCosts.dll
