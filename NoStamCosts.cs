@@ -40,7 +40,7 @@ namespace ValheimNoStam
                 "Stamina Cost Setting",
                 "StaminaCostSetting",
                 1,
-                "0 = Off, 1 = No stamina costs only when using the hoe or hammer, 2 = No stamina costs for everything in god mode only, 3 = No stamina costs at all for everything even when not in god mode"
+                "0 = Off, 1 = No stamina costs only when using the hoe or hammer, 2 = No stamina costs in god mode, 3 = No stamina costs even when not in god mode"
                 );
         }
 
