@@ -17,7 +17,7 @@ namespace ValheimNoStam
             MODNAME = "NoStamCosts",
             AUTHOR = "Basil",
             GUID = AUTHOR + "_" + MODNAME,
-            VERSION = "0.1.0";
+            VERSION = "0.1.1";
 
         internal readonly ManualLogSource log;
         internal readonly Harmony harmony;
