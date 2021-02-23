@@ -17,7 +17,7 @@ namespace ValheimNoStam
             MODNAME = "NoStamCosts",
             AUTHOR = "Basil",
             GUID = AUTHOR + "_" + MODNAME,
-            VERSION = "0.1.1";
+            VERSION = "0.1.2";
 
         internal readonly ManualLogSource log;
         internal readonly Harmony harmony;
@@ -40,7 +40,7 @@ namespace ValheimNoStam
                 "Stamina Cost Setting",
                 "StaminaCostSetting",
                 1,
-                "0 = Off, 1 = No stamina costs only when using the hoe or hammer, 2 = No stamina costs in god mode, 3 = No stamina costs even when not in god mode"
+                "0 = Off, 1 = No stamina costs only when using the hammer, hoe or cultivator, 2 = No stamina costs in god mode, 3 = No stamina costs even when not in god mode"
                 );
         }
 
