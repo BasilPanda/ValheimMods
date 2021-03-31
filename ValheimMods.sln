@@ -5,13 +5,22 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoStamCosts", "NoStamCosts\NoStamCosts.csproj", "{2FCB074A-6DFC-4A34-9819-3B3A54278124}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegionalMeals", "RegionalMeals\RegionalMeals.csproj", "{4C9498F1-6134-462F-8915-BF3CC303037D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FCB074A-6DFC-4A34-9819-3B3A54278124}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{2FCB074A-6DFC-4A34-9819-3B3A54278124}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{2FCB074A-6DFC-4A34-9819-3B3A54278124}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FCB074A-6DFC-4A34-9819-3B3A54278124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C9498F1-6134-462F-8915-BF3CC303037D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C9498F1-6134-462F-8915-BF3CC303037D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C9498F1-6134-462F-8915-BF3CC303037D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C9498F1-6134-462F-8915-BF3CC303037D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
